@@ -1,0 +1,121 @@
+* {
+margin: 0%;
+padding: 0}
+
+
+
+#statement{
+    text-align: center;
+    padding-bottom: 5vw;
+    padding-top: 2vw;
+}
+h1{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 5vw;
+}
+.text{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    width: 20vw;
+    margin: 0 auto;
+    cursor: crosshair;
+    transition: 500ms;
+}
+
+
+
+.text-on{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1vw;
+    background-color: white;
+    color: black;
+    width: 20vw;
+    margin: 0 auto;
+    cursor: crosshair;
+    border-width: 10px;
+    box-shadow: 10px 10px 20px;
+    
+}
+
+
+#content{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 20vw 20vw 20vw ;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+}
+
+.one{
+    background-color: red;
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: aquamarine;
+}
+
+.two{
+    background-color: aquamarine;
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: red;
+}
+
+.three{
+    background-color: rgb(38, 0, 255);
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: rgb(251, 255, 0);
+}
+
+.four{
+    background-color: rgb(251, 255, 0);
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: rgb(38, 0, 255);
+}
+
+.five{
+    background-color: rgb(255, 166, 0);
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: rgb(225, 0, 255);
+}
+
+.six{
+    background-color: rgb(225, 0, 255);
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: rgb(255, 166, 0);
+}
+
+.seven{
+    background-color: rgb(0, 103, 110);
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: rgb(72, 255, 0);
+}
+
+.eight{
+    background-color: rgb(72, 255, 0);
+    margin: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15vw;
+    color: rgb(0, 103, 110);
+}
+
+.box{ 
+opacity: 0;
+transition: 500ms}
+
+.boxon{
+opacity: 1;}
